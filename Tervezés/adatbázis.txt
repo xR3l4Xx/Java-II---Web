@@ -1,0 +1,8 @@
+filmek:
+	- id: int
+	- cím: varchar
+	- leírás: varchar (512?)
+	- kritikusok értékelése: float
+	- nézõi értékelés: float
+	- értékelés darabszám: int
+	- korhatár: int
