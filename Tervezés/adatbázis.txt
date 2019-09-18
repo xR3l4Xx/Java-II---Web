@@ -6,3 +6,19 @@ filmek:
 	- nézõi értékelés: float
 	- értékelés darabszám: int
 	- korhatár: int
+
+termek:
+	- id: int
+	- név: varchar (lehet szám is, pl 3-as terem)
+	- sorok száma
+	- oszlopok száma (székek száma 1 sorban(
+
+események:
+	- id: int
+	- film_id: int
+	- terem_id: int
+	- idõpont: datetime
+	- foglalt székek (text?)
+
+
+késõbb bõvíthetõ mozi táblával, ehhez lehet a termeket rendelni
